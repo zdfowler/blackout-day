@@ -1,11 +1,30 @@
+$black: #000000;
+$darkergrey: lighten($black, 10%);
+
+// Box Styles
+// @include rounded(INT)
+@mixin rounded($radius: 4px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.rounded_box {
+  @include rounded(6px);
+}
+
+.rounded_box2 {
+  @include rounded(10px);
+}
+
 #nav {
   ul {
     li {
-
+    padding: 20px;
       a {
-
+        color: $darkergrey;
         &:hover {
-
+          color: $black;
         }
       }
     }
@@ -13,3 +32,4 @@
   }
 
 }
+
