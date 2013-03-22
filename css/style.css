@@ -269,6 +269,7 @@ tbody tr:hover th {
     background-color: white;
     min-height: 100%;
     margin: 0 auto; }
+
 .main_content {
     padding: 20px;
 }
@@ -277,7 +278,7 @@ tbody tr:hover th {
     width: 100%;
 }
 .thumbs article {
-    width: 50%;
+    width: 100%;
     float: left;
     padding: 10px;
 }
@@ -288,4 +289,17 @@ footer {
 footer article {
     width: 50%;
     float: left;
+}
+
+@media screen and (min-width: 481px) {
+    .thumbs article {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+    .thumbs article {
+        width: 33.33333333%;
+    }
 }
