@@ -268,4 +268,27 @@ tbody tr:hover th {
     max-width: 960px;
     background-color: white;
     min-height: 100%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.main_content {
+    padding: 20px;
+}
+
+.thumbs {
+    width: 100%;
+}
+.thumbs article {
+    width: 50%%;
+    float: left;
+    padding: 10px;
+}
+
+footer {
+    clear: both;
+}
+footer article {
+    width: 50%;
+    float: left;
+}
