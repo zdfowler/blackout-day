@@ -1,0 +1,271 @@
+/*
+  ---- ---- ---- ---- RESET STYLESHEET (@joshbroton) ---- ---- ---- ----
+*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    line-height: 1.2;
+    font-family: inherit;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+
+audio[controls], canvas, video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*
+  ----- More styles from @joshbroton -------
+*/
+
+
+html {
+    width: 100%;
+    height: 100%;
+    background: white;
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%; }
+
+body {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    font-family: PT Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.2em;
+    color: black; }
+
+.clearfix {
+    *zoom: 1; }
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: ""; }
+.clearfix:after {
+    clear: both; }
+
+/* TYPOGRAPHY */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: museo, Cambria, Georgia, Times, "Times New Roman", serif;
+    font-weight: normal;
+    color: black;
+    line-height: 1.35em;
+    text-rendering: optimizeLegibility; }
+
+h1,
+.h1 {
+    margin-bottom: 0.6em;
+    font-size: 2.5em; }
+
+h2,
+.h2 {
+    margin-bottom: 0.1em;
+    font-size: 2em; }
+
+h3,
+.h3 {
+    margin-bottom: .125em;
+    font-size: 1.5em; }
+
+h4,
+.h4 {
+    margin-bottom: 0.68571em;
+    font-size: 1.25em; }
+
+h5,
+.h5 {
+    margin-bottom: 0.6em;
+    font-size: 1.125em; }
+
+h6,
+.h6 {
+    margin-bottom: 0.6em;
+    font-size: 1em;
+    font-weight: normal; }
+
+p,
+ol,
+ul,
+dl,
+address {
+    margin-bottom: 1.2em;
+    line-height: 1.44em; }
+
+small {
+    font-size: .875em; }
+
+ul,
+ol {
+    padding: 0 0 0 20px; }
+
+blockquote {
+    margin: 0 20px 1.2em 15px;
+    border-left: 5px solid #bfbfbf;
+    font-family: museo, Cambria, Georgia, Times, "Times New Roman", serif;
+    font-style: italic; }
+
+dl,
+dd {
+    margin-bottom: 1.2em; }
+
+dt {
+    font-weight: bold; }
+
+b,
+strong {
+    font-weight: bold; }
+b a,
+strong a {
+    font-weight: bold; }
+
+dfn,
+em {
+    font-style: italic; }
+
+ins {
+    background-color: #e6e6e6;
+    color: red;
+    text-decoration: none; }
+
+mark {
+    background-color: #e6e6e6;
+    color: red;
+    font-style: italic;
+    font-weight: bold; }
+
+pre,
+code,
+kdb,
+samp {
+    padding: 5px;
+    background-color: #e6e6e6;
+    font-family: PT Mono, Monaco, Courier New, monospace;
+    font-size: .875em; }
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word; }
+
+sub,
+sup {
+    position: relative;
+    font-size: .75em;
+    line-height: 0;
+    vertical-align: 1.2em; }
+
+sup {
+    top: -.5em; }
+
+sub {
+    bottom: -.25em; }
+
+/* LINKS */
+a {
+    color: #be9034;
+    text-decoration: none;
+    cursor: pointer; }
+a:hover {
+    color: #a27b2c;
+    text-decoration: underline;
+    border: 0;
+    outline: 0; }
+a:visited {
+    color: #866625; }
+a:focus, a:active {
+    color: #6a501d;
+    border: 0;
+    outline: 0; }
+a img {
+    border: 0;
+    outline: 0; }
+
+strong a {
+    font-weight: bold; }
+
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic; }
+
+
+
+/* TABLES */
+table {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0.6em;
+    background-color: transparent;
+    border-spacing: 0; }
+
+th,
+td {
+    padding: 0 .5em;
+    vertical-align: middle;
+    border-top: 1px solid #bfbfbf;
+    line-height: 1.2em;
+    text-align: left;
+    font-size: .875em; }
+
+th {
+    font-weight: bold; }
+
+thead th {
+    vertical-align: bottom; }
+
+thead:first-child tr:first-child th,
+thead:first-child tr-first-child td {
+    border-top: 0; }
+
+tbody tr td,
+tbody tr th {
+    -webkit-transition: background-color 0.25s 0 ease;
+    -moz-transition: background-color 0.25s 0 ease;
+    -ms-transition: background-color 0.25s 0 ease;
+    -o-transition: background-color 0.25s 0 ease;
+    transition: background-color 0.25s 0 ease; }
+
+tbody tr:hover td,
+tbody tr:hover th {
+    background-color: #bfbfbf; }
+
+.table-striped tbody tr:nth-child(odd) td,
+.table-striped tbody tr:nth-child(odd) th {
+    background-color: #e6e6e6; }
+
+/*
+  ---- ---- ---- ---- My STYLES ---- ---- ---- ----
+*/
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    background-color: white;
+    min-height: 100%;
+    margin: 0 auto; }
